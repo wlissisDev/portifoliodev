@@ -1,0 +1,19 @@
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.title{
+    margin: 10rem 0 2rem 0;
+    text-align: center;
+    color: #3e3e3e;
+    font-size: 30px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}

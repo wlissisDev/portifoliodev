@@ -1,0 +1,63 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    /* border-bottom: 1px solid gainsboro; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
+.navbar div img{
+    width: 50px;
+    background-color: transparent;
+}
+.navbar div button{
+    display:  none;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 32px;
+}
+.nav_items a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+}
+.nav_items a:hover{
+    color: rgb(0, 153, 255);
+}
+
+@media (max-width:768px) {
+    .navbar div button{
+        display:  block;
+    }
+
+    .navbar{
+        position: relative;
+        padding: 0;
+    }
+
+    .nav_items{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 2rem;
+        background-color: rgb(255, 255, 255);
+        border-bottom: 1px solid gainsboro;
+        transition: all .4s;
+    }
+
+    .navbar div{
+        z-index: 1;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(212, 229, 255);
+        padding: 1rem;
+    }
+}
