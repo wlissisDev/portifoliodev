@@ -56,6 +56,11 @@
     .info h3{
         text-align: center;
         margin-bottom: 10px;
-        font-size: 28px;
+        font-size: 30px;
+    }
+
+    .techs{
+        display: flex;
+        flex-wrap: wrap;
     }
 }
