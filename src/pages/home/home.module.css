@@ -1,8 +1,8 @@
 .container {
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 6rem;
     gap: 5rem;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .info span {
-    color: blueviolet;
+    color: rgb(140, 78, 255);
 }
 
 .info h3 {
@@ -30,14 +30,14 @@
 .techs span {
     padding: 3px 10px;
     color: white;
-    background: rgb(113, 43, 226);
+    background: rgb(140, 78, 255);
     margin: 5px;
 }
 
 .foto {
     width: 300px;
     border-radius: 50%;
-    border: 1px solid blue;
+    box-shadow: inset 0 0 0 2px  rgb(140, 78, 255);
     padding: 20px;
     object-fit: contain,
 }

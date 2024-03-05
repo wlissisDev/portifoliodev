@@ -2,7 +2,7 @@ import styles from './home.module.css'
 import foto from '../../assets/avatar/foto.jpeg'
 export function Home() {
     return (
-        <div className={styles.container}>
+        <div id='home' className={styles.container}>
             <div className={styles.info}>
                 <h1>
                     Wlissis
