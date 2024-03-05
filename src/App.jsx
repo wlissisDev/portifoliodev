@@ -10,7 +10,7 @@ export function App() {
   return (
     <div className={styles.container}>
       <Navbar />
-      {/* <Home/> */}
+      <Home/>
       {/* <Projects /> */}
     </div>
   )
