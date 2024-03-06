@@ -1,4 +1,4 @@
-import avatar from '../../assets/avatar/foto.jpeg'
+import avatar from '../../assets/avatar/about.avif'
 
 import styles from './about.module.css';
 export function About() {
