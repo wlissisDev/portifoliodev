@@ -21,8 +21,8 @@ export function Navbar() {
             >
                 <a href="#home">Início</a>
                 <a href="#about">Sobre</a>
-                <a href="#">Contato</a>
-                <a href="#">Projetos</a>
+                <a href="#contact">Contato</a>
+                <a href="#projects">Projetos</a>
                 <a href='../../assets/curriculo.pdf' download='curriculo.pdf' className={styles.btn}>
                     Resumo
                     <FaDownload style={{marginLeft:"5px"}}/>
